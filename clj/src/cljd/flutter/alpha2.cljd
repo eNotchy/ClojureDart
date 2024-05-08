@@ -81,7 +81,7 @@
    Values are the result of (apply f v args) for all values v yielded by the
    upstream subscribable (in the case of a vector of subscribable,yielded values are
    vectors of each subscribable most recent value).
-   Subscription options can be passed to the upstream subscribable(s) by using the :sup/opts
+   Subscription options can be passed to the upstream subscribable(s) by using the :sub/opts
    option which must be a map of subscription options (like :default) or a vector of
    such maps in the case of multiple subscribables.
    This subscribable generates events only when the resulting value changes."
